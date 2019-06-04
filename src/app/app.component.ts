@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
+import { map } from "rxjs/operators";
+
+const httpOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+};
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +13,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-pwa';
+  postMethod = "POST";
+  getMethod = "GET";
+  public foods;
+  logindatadata = [];
+  constructor(public Http: HttpClient) { }
+  ngOnInit() {
+    this.Http.get('https://jsonplaceholder.typicode.com/posts').subscribe(
+      data => { this.foods = data },
+      err => console.error(err),
+      () => this.logindatadata = this.foods
+    );
+
+    this.Http.get('https://jsonplaceholder.typicode.com/posts');
+
+  }
+
+
 }

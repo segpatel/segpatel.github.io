@@ -21,3 +21,28 @@
 <!-- <app-nav></app-nav> -->
 <!-- <app-table></app-table> -->
 <router-outlet></router-outlet>
+<div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="text-center fontwidth">#</th>
+        <th class="text-center fontwidth">No</th>
+        <th class="fontwidth">Date</th>
+        <th class="fontwidth">Humedad</th>
+        <th class="fontwidth">Tag</th>
+        <th class="fontwidth">Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let item of logindatadata">
+        <tr>
+          <td>{{item.id}}</td>
+          <td>{{item.body}}</td>
+          <td>{{item.title}}</td>
+          <td>{{item.userId}}</td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>
