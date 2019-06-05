@@ -38,9 +38,11 @@
       <ng-container *ngFor="let item of logindatadata">
         <tr>
           <td>{{item.id}}</td>
-          <td>{{item.body}}</td>
-          <td>{{item.title}}</td>
-          <td>{{item.userId}}</td>
+          <td>{{item.question}}</td>
+          <td>{{item.answer}}</td>
+          <td>{{item.date_added}}</td>
+          <td>{{item.date_modified}}</td>
+          <td>{{item.is_del}}</td>
         </tr>
       </ng-container>
     </tbody>

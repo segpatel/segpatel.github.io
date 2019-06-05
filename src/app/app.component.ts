@@ -19,13 +19,14 @@ export class AppComponent {
   logindatadata = [];
   constructor(public Http: HttpClient) { }
   ngOnInit() {
-    this.Http.get('https://jsonplaceholder.typicode.com/posts').subscribe(
+    this.Http.get('http://dignizant.com/wedding/admin/service/faq.php').subscribe(
       data => { this.foods = data },
       err => console.error(err),
-      () => this.logindatadata = this.foods
+      // () => this.logindatadata = this.foods
+      () => this.logindatadata = this.foods["data"]
     );
 
-    this.Http.get('https://jsonplaceholder.typicode.com/posts');
+    this.Http.get('http://dignizant.com/wedding/admin/service/faq.php');
 
   }
 
