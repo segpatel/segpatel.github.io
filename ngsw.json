@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1559716788287,
+  "timestamp": 1570530142803,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -8,17 +8,15 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/es2015-polyfills.b62a0c6b168f504c432e.js",
+        "/es2015-polyfills.bda95d5896422d031328.js",
         "/favicon.ico",
         "/index.html",
-        "/main.8ef75ddb14c4c614f380.js",
+        "/main.8fe5c27b65f0ff153cc5.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
-        "/styles.edbcf20f5eee112dd536.css"
+        "/styles.3ff695c00d717f2d2a11.css"
       ],
-      "patterns": [
-        "https:\\/\\/cdnjs\\.cloudflare\\.com\\/ajax\\/libs\\/bootstrap-timepicker\\/0\\.5\\.2\\/css\\/bootstrap-timepicker\\.css"
-      ]
+      "patterns": []
     },
     {
       "name": "assets",
@@ -37,7 +35,18 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "jokes-api",
+      "patterns": [
+        "https:\\/\\/api\\.chucknorris\\.io\\/jokes\\/random"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 86400000,
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -47,13 +56,13 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/es2015-polyfills.b62a0c6b168f504c432e.js": "93f7f20f8021daed65e169e735213e2c0bed4ab7",
+    "/es2015-polyfills.bda95d5896422d031328.js": "1612fe8f7e8e0c856f0885ff179e93363c67834f",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "9e843c46475c25b9454a4156eea256096e1a47d0",
-    "/main.8ef75ddb14c4c614f380.js": "c454f810163d1f6ed083dc9bb5079407679e1386",
+    "/index.html": "f3be3951bf9a1fa36bccdf3a97062a4a55360083",
+    "/main.8fe5c27b65f0ff153cc5.js": "1d6b650eba23bca25262c9e13273c04c8f6d92a2",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.edbcf20f5eee112dd536.css": "cf178f57a2117e87e9f03802553eca9ffeb0a42b"
+    "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
