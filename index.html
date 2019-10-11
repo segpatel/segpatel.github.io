@@ -18,6 +18,56 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/newstyle.css">
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script>
+        function changeLanguage(language) {
+            var element = document.getElementById("url");
+            element.value = language;
+            element.innerHTML = language;
+        }
+
+        function showDropdown() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        function changeLanguage(language) {
+            var element = document.getElementById("url");
+            element.value = language;
+            element.innerHTML = language;
+        }
+
+        function showDropdown2() {
+            document.getElementById("myDropdown2").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1976d2">
     <link rel="stylesheet" href="styles.3ff695c00d717f2d2a11.css">
@@ -58,7 +108,7 @@
     <script type="text/javascript" src="runtime.26209474bfa8dc87a77c.js"></script>
     <script type="text/javascript" src="es2015-polyfills.bda95d5896422d031328.js" nomodule></script>
     <script type="text/javascript" src="polyfills.8bbb231b43165d65d357.js"></script>
-    <script type="text/javascript" src="main.83272fca8ff8c79c8c74.js"></script>
+    <script type="text/javascript" src="main.5424ea18eb21bc1ae627.js"></script>
 </body>
 
 </html>
