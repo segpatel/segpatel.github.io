@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1570794067152,
+  "timestamp": 1570879059480,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "/es2015-polyfills.bda95d5896422d031328.js",
         "/favicon.ico",
         "/index.html",
-        "/main.97e3e0b1011ba1a6b4b4.js",
+        "/main.0f24bbf6bd81c0ea3e59.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
         "/styles.3ff695c00d717f2d2a11.css"
@@ -454,7 +454,7 @@
     "/assets/css/font-awesome.min.css": "512c7d79033e3028a9be61b540cf1a6870c896f8",
     "/assets/css/gijgo.css": "0250ea6833ab7e71b9b5947b8d6fdfe72d02d900",
     "/assets/css/magnific-popup.css": "d6963db6faa9294387bb3175813a61bc3f859437",
-    "/assets/css/newstyle.css": "f3508787e2b8b4ba360b051467d76232e7ee4b21",
+    "/assets/css/newstyle.css": "8ba44360049db55949903ba3c90255b1ebeee009",
     "/assets/css/nice-select.css": "c4d96283d754b77e15706fee0de24594d63f9730",
     "/assets/css/owl.carousel.min.css": "73d8a692734089983b00005d99ef8e5e5b0dadeb",
     "/assets/css/slicknav.css": "f763709f643a530a27a7cbf43d50ac12372d24e5",
@@ -636,8 +636,8 @@
     "/assets/scss/theme-default.scss": "cd9a952df82c67da69949d7e15fb6ef2ebac56c6",
     "/es2015-polyfills.bda95d5896422d031328.js": "1612fe8f7e8e0c856f0885ff179e93363c67834f",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "c6beac15daf4f6207166e62fafababac422215ad",
-    "/main.97e3e0b1011ba1a6b4b4.js": "54e8807251646303ce7d303600088040b4e670d0",
+    "/index.html": "84456881e75646e55115f1edc8ff5e751c14cc1c",
+    "/main.0f24bbf6bd81c0ea3e59.js": "c448467d194c21d634fe1e2aea1246334e7e2c44",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
