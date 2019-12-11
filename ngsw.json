@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1575975400893,
+  "timestamp": 1576047585799,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "/es2015-polyfills.e17997aea7f522b8d49d.js",
         "/favicon.ico",
         "/index.html",
-        "/main.f2f9bdb8c5a953200e62.js",
+        "/main.5419f89cc3a67693d39f.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
         "/scripts.463e420e5d947f5f75a6.js",
@@ -24,7 +24,6 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/1.2f243aaff1bf21b33865.jpg",
         "/assets/css/bootstrap-grid.css",
         "/assets/css/bootstrap-grid.css.map",
         "/assets/css/bootstrap-grid.min.css",
@@ -65,6 +64,8 @@
         "/assets/img2/9.jpg",
         "/assets/img2/pause.png",
         "/assets/img2/play-flat.png",
+        "/assets/img2/sc1.jpg",
+        "/assets/img2/sc2.jpg",
         "/assets/js/bootstrap.bundle.js",
         "/assets/js/bootstrap.bundle.js.map",
         "/assets/js/bootstrap.bundle.min.js",
@@ -73,14 +74,14 @@
         "/assets/js/bootstrap.js.map",
         "/assets/js/bootstrap.min.js",
         "/assets/js/bootstrap.min.js.map",
-        "/assets/js/swiper.min.js"
+        "/assets/js/swiper.min.js",
+        "/sc2.9a04503e6ed2553f4e27.jpg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/1.2f243aaff1bf21b33865.jpg": "4ac47f11d8130c869be8aa14d7cf935441c47a93",
     "/assets/css/bootstrap-grid.css": "df07e0a1366fea6b5acd14827c385d3214b322b3",
     "/assets/css/bootstrap-grid.css.map": "a3014cfcaad4ca51bd3e12c4ee24cbda48af7dce",
     "/assets/css/bootstrap-grid.min.css": "4edd0125b0e1dc7f1bc2aecd38abe2cd079e332f",
@@ -121,6 +122,8 @@
     "/assets/img2/9.jpg": "21e3298cf3b04cb081ef346672daa72a28c508fd",
     "/assets/img2/pause.png": "5cc8396793bce06559f8bae539442702c78c8feb",
     "/assets/img2/play-flat.png": "5851df34946f38628835fb28766b531b2b10d5a0",
+    "/assets/img2/sc1.jpg": "c4d2e7db231721ff6fa5e8cfd61a2ec33171ee9f",
+    "/assets/img2/sc2.jpg": "b617eefb3c11ad1ba86219197f98e645a2a69c15",
     "/assets/js/bootstrap.bundle.js": "7038343de806c871e93d1681ab48633b7aa34f58",
     "/assets/js/bootstrap.bundle.js.map": "961f667f3bda43b00083913ac3202a9ccbe21587",
     "/assets/js/bootstrap.bundle.min.js": "265a733cb7fbc481fd2510a659a85ad55c93c895",
@@ -132,10 +135,11 @@
     "/assets/js/swiper.min.js": "e99576a0513d1c1dfc4e8730ff6ad74609eba8f4",
     "/es2015-polyfills.e17997aea7f522b8d49d.js": "9fa6f81adfc34dc84f2850c9fc9713766c376c09",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "ba395c3166734bd1050ffb0ce58178feec510ba2",
-    "/main.f2f9bdb8c5a953200e62.js": "08fe758e7b5c42a49edf7852991ee9ecf7839a5f",
+    "/index.html": "be5c2f5bf07097e15424497895a11aa205ff4954",
+    "/main.5419f89cc3a67693d39f.js": "4d708d796a31fa2a69e593fc21d3cd3d2c3d8c5f",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/sc2.9a04503e6ed2553f4e27.jpg": "b617eefb3c11ad1ba86219197f98e645a2a69c15",
     "/scripts.463e420e5d947f5f75a6.js": "b5c5ab5cbe84f3f21d1af038e1d372bc2cb2355e",
     "/styles.004908af98943b99c14f.css": "73dd09ccb4d98feb8fcd04ddfedfa26a41f35ecb"
   },
