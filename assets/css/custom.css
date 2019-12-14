@@ -105,8 +105,12 @@ input[type="password"]:focus {
     transition: 0.3s;
 }
 
-.mb-50 {
-    margin-bottom: 100px;
+.mb-70 {
+    margin-bottom: 70% !important;
+}
+
+.mb-45 {
+    margin-bottom: 45% !important;
 }
 
 .text-font-size {
@@ -243,7 +247,7 @@ body {
 }
 
 .border-radius {
-    border-radius: 5%;
+    border-radius: 5% !important;
 }
 
 .opacity-img {
