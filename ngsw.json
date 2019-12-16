@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1576474162689,
+  "timestamp": 1576478306684,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "/es2015-polyfills.e17997aea7f522b8d49d.js",
         "/favicon.ico",
         "/index.html",
-        "/main.ff0e49b2b82c4bd8e426.js",
+        "/main.4b84dc32ee9b8dec50ae.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
         "/scripts.463e420e5d947f5f75a6.js",
@@ -94,6 +94,7 @@
         "/assets/js/bootstrap.min.js",
         "/assets/js/bootstrap.min.js.map",
         "/assets/js/swiper.min.js",
+        "/assets/video/20191216_115501.mp4",
         "/ic_name_bg.faae96fcff60eef0bc80.png",
         "/ic_splash_bg.4b825d336f6bed8b9427.png"
       ],
@@ -172,12 +173,13 @@
     "/assets/js/bootstrap.min.js": "6778fed3cf095a318141a31f455c8f4663885bde",
     "/assets/js/bootstrap.min.js.map": "d64a289f698e446b0cc78e83dd0161bb8e2f2075",
     "/assets/js/swiper.min.js": "e99576a0513d1c1dfc4e8730ff6ad74609eba8f4",
+    "/assets/video/20191216_115501.mp4": "1456ebda0fb978dd8bd0310f97402e78197ca1f6",
     "/es2015-polyfills.e17997aea7f522b8d49d.js": "9fa6f81adfc34dc84f2850c9fc9713766c376c09",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/ic_name_bg.faae96fcff60eef0bc80.png": "9faa1065ae4389cbafa9b3cbbef298a1fdf1dd00",
     "/ic_splash_bg.4b825d336f6bed8b9427.png": "7bc6035b22a65ca7ef41d46d5473ae1839eee1b2",
-    "/index.html": "697108ad39892a795c78ce33cc93ed2314cffe80",
-    "/main.ff0e49b2b82c4bd8e426.js": "4aef3e1be532fd1ed2987cb554cb4546c2f448a5",
+    "/index.html": "cc11d4805eaa8266a09fad039a69d86eedfb2369",
+    "/main.4b84dc32ee9b8dec50ae.js": "0d8e8561b965d543c989b4d1c173b6a83562c769",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/scripts.463e420e5d947f5f75a6.js": "b5c5ab5cbe84f3f21d1af038e1d372bc2cb2355e",
