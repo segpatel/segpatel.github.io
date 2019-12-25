@@ -253,3 +253,7 @@ body {
 .opacity-img {
     opacity: 0.5;
 }
+
+.bg-blue-color-dark {
+    background: #243a69;
+}
