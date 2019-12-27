@@ -257,3 +257,31 @@ body {
 .bg-blue-color-dark {
     background: #243a69;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .card-header{
+    background-image: linear-gradient(to right, #987232,#FFDB6E,#987232);
+    border: none;
+  }
+  .card-text-header{
+    position: absolute;
+    padding-left: 20%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .icon-set{
+    position: absolute;
+    padding: 14px;
+    width: 25%;
+  }
+  .image-set{
+    height: 150px;
+    margin: 30px 2px 2px 2px;
+    border-radius: 7px 7px 0px 0px;
+    /* opacity: 0.5; */
+  }
