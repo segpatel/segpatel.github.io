@@ -312,8 +312,14 @@ body {
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
+  @media (min-width: 768px) and (max-width: 1024px){
+      
+  }
+  @media (min-width: 481px) and (max-width: 767px)  {
+    
   
-  @media (min-width: 768px) and (max-width: 1024px) {
+  }
+  @media (min-width: 320px) and (max-width: 480px){
     
   
   }
@@ -355,7 +361,7 @@ body {
   /* --------------------------------------------------------------------------------------------------- */
   @media (min-height: 500px) {
         .rsp-m{
-            margin-top: 15%;
+            margin-top: 30%;
         }
         .rsp-login{
             margin-top: 80%;
@@ -458,3 +464,24 @@ body {
             margin-top: 80%;
         }
     }
+
+    @media (min-height: 10px) and (max-height: 500px){
+    /* .rsp-m{
+        margin-top: 80%;
+    } */
+    .rsp-login{
+        margin-top: 50%;
+    }
+    .rsp-fog{
+        margin-top: 50%;
+    }
+    .rsp-reg{
+        margin-top:50%;
+    }
+    .rsp-eidt{
+        margin-top: 50%;
+    }
+    .rsp-chgpass{
+        margin-top: 50%;
+    }
+}
