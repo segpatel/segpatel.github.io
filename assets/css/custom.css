@@ -353,9 +353,9 @@ body {
   }
 
   /* --------------------------------------------------------------------------------------------------- */
-  /* @media (min-height: 500px) { */
+  @media (min-height: 500px) {
         .rsp-m{
-            margin-top: 30%;
+            margin-top: 15%;
         }
         .rsp-login{
             margin-top: 80%;
@@ -372,8 +372,8 @@ body {
         .rsp-chgpass{
             margin-top: 80%;
         }
-    /* } */
-  /* @media (min-height: 600px) {
+    }
+  @media (min-height: 600px) {
         .rsp-m{
             margin-top: 35%;
         }
@@ -457,4 +457,4 @@ body {
         .rsp-m{
             margin-top: 80%;
         }
-    } */
+    }
