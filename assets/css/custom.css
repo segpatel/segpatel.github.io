@@ -1,6 +1,7 @@
 .input-bottom-line {
     border: none;
-    border-bottom: 1px solid #ffb1c0;
+    /* border-bottom: 1px solid #ffb1c0; */
+    border-bottom: 1px solid black;
     background: transparent;
 }
 
@@ -63,11 +64,13 @@ input[type="password"] {
 }
 
 .pink-color {
-    color: #ffb1c0;
+    /* color: #ffb1c0; */
+    color: black;
 }
 
 .pink-color-dark {
-    color: #ff6180;
+    /* color: #ff6180; */
+    color: black;
 }
 
 .font-w {
@@ -76,13 +79,17 @@ input[type="password"] {
 }
 
 input[type="text"]:focus {
-    border-color: #ffb1c0;
-    box-shadow: 0 1px 0 0 #ffb1c0;
+    /* border-color: #ffb1c0; */
+    border-color: black;
+    /* box-shadow: 0 1px 0 0 #ffb1c0; */
+    box-shadow: 0 1px 0 0 black;
 }
 
 input[type="password"]:focus {
-    border-color: #ffb1c0;
-    box-shadow: 0 1px 0 0 #ffb1c0;
+    /* border-color: #ffb1c0; */
+    border-color: black;
+    /* box-shadow: 0 1px 0 0 #ffb1c0; */
+    box-shadow: 0 1px 0 0 black;
 }
 
 .inputWithIcon input[type="text"] {
@@ -132,15 +139,17 @@ input[type="password"]:focus {
 }
 
 .singin {
-    background-color: #fa6683 !important;
-    box-shadow: 0px 0px 5px 0px #fa6683!important;
+    /* background-color: #fa6683 !important; */
+    background-image: linear-gradient(to right, #987232,#FFDB6E,#987232);
+    /* box-shadow: 0px 0px 5px 0px #fa6683!important; */
     border-radius: 20px!important;
     color: white!important;
 }
 
 .singup {
-    background-color: #273967!important;
-    box-shadow: 0px 0px 5px 0px #273967!important;
+    /* background-color: #273967!important; */
+    background-image: linear-gradient(to right, #987232,#FFDB6E,#987232);
+    /* box-shadow: 0px 0px 5px 0px #273967!important; */
     border-radius: 20px!important;
     color: white!important;
 }
@@ -228,7 +237,8 @@ body {
 }
 
 .bg-pink-color {
-    background-color: #ff6180 !important;
+    /* background-color: #ff6180 !important; */
+    background-color: black !important;
 }
 
 .m-t-l {
