@@ -67,6 +67,11 @@ input[type="password"] {
     /* color: #ffb1c0; */
     color: black;
 }
+.gold-color {
+    /* color: #ffb1c0; */
+    color: #FFDB6E;
+    /* background-image: linear-gradient(to right, #987232,#FFDB6E,#987232); */
+}
 
 .pink-color-dark {
     /* color: #ff6180; */
@@ -115,9 +120,11 @@ input[type="password"]:focus {
 .mb-70 {
     margin-bottom: 70% !important;
 }
-
+.body-image {
+    background: #ffffff !important;
+}
 .mb-45 {
-    margin-bottom: 45% !important;
+    margin-bottom: 30% !important;
 }
 
 .text-font-size {
@@ -154,6 +161,11 @@ input[type="password"]:focus {
     color: black!important;
 }
 
+.datanotfound{
+    margin-top: 30%;
+    text-align: center;color: gray;
+    font-size: 20px;
+}
 .center {
     display: block;
     margin-left: auto;
@@ -201,7 +213,7 @@ body {
 }
 
 .w-12 {
-    width: 12%;
+    /* width: 12%; */
 }
 
 .w-h-70 {
@@ -232,8 +244,12 @@ body {
 
 /* image slider */
 
-.shadow-box {
+/* .shadow-box {
     box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.1) !important;
+} */
+.bg-grew-color{
+    background: #f6f6f6;
+    
 }
 
 .bg-pink-color {
@@ -265,7 +281,8 @@ body {
 }
 
 .bg-blue-color-dark {
-    background: #243a69;
+    /* background: #243a69; */
+    background-image: linear-gradient(to right, #987232,#FFDB6E);
 }
 
 .card {

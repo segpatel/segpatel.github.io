@@ -1,7 +1,7 @@
 {
-  "name": "pwa",
-  "short_name": "pwa",
-  "theme_color": "#1976d2",
+  "name": "Personal Trainer",
+  "short_name": "Personal Trainer",
+  "theme_color": "#FFDB6E",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
@@ -45,6 +45,91 @@
     {
       "src": "assets/icons/icon-512x512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-76x76.png",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/icon-76x76.png",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-20x20.png",
+      "sizes": "20x20",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-29x29.png",
+      "sizes": "29x29",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-40x40.png",
+      "sizes": "40x40",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-58x58.png",
+      "sizes": "58x58",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-60x60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-76x76.png",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-80x80.png",
+      "sizes": "80x80",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-87x87.png",
+      "sizes": "87x87",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-167x167.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons2/Icon-1536x1563.png",
+      "sizes": "1536x1563",
       "type": "image/png"
     }
   ]
