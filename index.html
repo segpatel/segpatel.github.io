@@ -1,1 +1,90 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><!--[if IE]><link rel="icon" href="/favicon.ico"><![endif]--><title>pt</title><link href=/js/about.4987f8c3.js rel=prefetch><link href=/css/app.ca936927.css rel=preload as=style><link href=/js/app.cb772ab4.js rel=preload as=script><link href=/js/chunk-vendors.00092a4d.js rel=preload as=script><link href=/css/app.ca936927.css rel=stylesheet><link rel=icon type=image/png sizes=32x32 href=/img/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/img/icons/favicon-16x16.png><link rel=manifest href=/manifest.json><meta name=theme-color content=#4DBA87><meta name=apple-mobile-web-app-capable content=no><meta name=apple-mobile-web-app-status-bar-style content=default><meta name=apple-mobile-web-app-title content=pt><link rel=apple-touch-icon href=/img/icons/apple-touch-icon-152x152.png><link rel=mask-icon href=/img/icons/safari-pinned-tab.svg color=#4DBA87><meta name=msapplication-TileImage content=/img/icons/msapplication-icon-144x144.png><meta name=msapplication-TileColor content=#000000></head><body><noscript><strong>We're sorry but pt doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.00092a4d.js></script><script src=/js/app.cb772ab4.js></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Angularproject</title>
+    <base href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <!-- <link href="../node_modules/lato-font/css/lato-font.css"> -->
+</head>
+
+<body>
+    <app-root></app-root>
+    <script src="runtime-es2015.js" type="module"></script>
+    <script src="runtime-es5.js" nomodule defer></script>
+    <script src="polyfills-es5.js" nomodule defer></script>
+    <script src="polyfills-es2015.js" type="module"></script>
+    <script src="styles-es2015.js" type="module"></script>
+    <script src="styles-es5.js" nomodule defer></script>
+    <script src="vendor-es2015.js" type="module"></script>
+    <script src="vendor-es5.js" nomodule defer></script>
+    <script src="main-es2015.js" type="module"></script>
+    <script src="main-es5.js" nomodule defer></script>
+</body>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<!-- <script src="//code.jquery.com/jquery-3.3.1.min.js"></script> -->
+<script src="//unpkg.com/slick-carousel@1.8.1/slick/slick.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#close-button").on('click', function() {
+            $("#close_text").css('display', 'none');
+        });
+    });
+</script>
+
+<script>
+    var s = document.getElementById("selectbox");
+    selectbox.onclick = function() {
+        selectbox.classList.toggle('closed');
+    }
+</script>
+<script>
+    $(document).ready(function() {
+        $("#myModal1").modal('show');
+    });
+    $(document).ready(function() {
+        $("#myModal2").modal('show');
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $("#myBtn").click(function() {
+            $("#myModal").modal();
+        });
+    });
+</script>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myInputpassword");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+
+    }
+
+    function myFunctionconfom() {
+        var x = document.getElementById("myInputcopassword");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+
+    }
+</script>
+
+</html>
