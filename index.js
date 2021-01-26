@@ -65,7 +65,7 @@ async function join() {
     client.join(options.appid, options.channel, options.token || null),
     // create local tracks, using microphone and camera
     AgoraRTC.createMicrophoneAudioTrack(),
-    // AgoraRTC.createCameraVideoTrack()
+    AgoraRTC.createCameraVideoTrack()
   ]);
   
   // play local video track
@@ -105,7 +105,7 @@ async function subscribe(user, mediaType) {
   // subscribe to a remote user
   await client.subscribe(user, mediaType);
   console.log("subscribe success");
-  if (mediaType === 'video') {
+  /* if (mediaType === 'video') {
     const player = $(`
       <div id="player-wrapper-${uid}">
         <p class="player-name">remoteUser(${uid})</p>
@@ -115,9 +115,9 @@ async function subscribe(user, mediaType) {
     $("#remote-playerlist").append(player);
     user.videoTrack.play(`player-${uid}`);
   }
-  if (mediaType === 'audio') {
+  if (mediaType === 'audio') { */
     user.audioTrack.play();
-  }
+  // }
 }
 
 function handleUserPublished(user, mediaType) {
