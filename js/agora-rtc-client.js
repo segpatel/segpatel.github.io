@@ -1,4 +1,4 @@
-import AgoraRTC from 'agora-rtc-sdk-ng'
+import AgoraRTC from 'agora-rtc-sdk'
 import EventEmitter from 'events'
 
 export default class RTCClient {
